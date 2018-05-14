@@ -7,40 +7,10 @@
 * 执行命令 npm install 安装依赖
 * 执行命令 gulp 编译代码
 * 安装 redis 和mongodb
+* 在config/config.json 配置相应参数
 
 ##配置文件：
-    {
-        "port": "8445",
-        "token":{
-            "jwtsecret": "MIIEogIBAAKCAQEAwk7I4cn6slYkRDs/uQqhZrfV9/uEo1nEXqxgTmUWLekFhYhj",
-            "secretkey": "qRM3+JRrEktE4WgWGgL8z9JNjvqsivKLHjvi//pxGgbw34ZAESfggA/VSK1bNU7q",
-            "effectiveinterval":3600
-        },
-        "candyserver":{
-            "url": "http://192.168.0.166:3000"
-        },
-        "mongodb": {
-            "host": "127.0.0.1",
-            "port": "27017",
-            "user": "",
-            "password": "",
-            "database": "TokenLoanUser"
-        },
-        "redis": {
-            "host": "127.0.0.1",
-            "port": "6379",
-            "user": "",
-            "password": ""
-        },
-        //短信配置
-        "sms": {
-            "appid": "XXXXXXXXX",
-            "appkey": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            "cnAccountTemplateId": "120204",
-            "enAccountTemplateId": "117079",
-            "effectiveinterval": "10"
-        }
-    }
+
 
 #部署
 * 执行命令npm start启动服务
