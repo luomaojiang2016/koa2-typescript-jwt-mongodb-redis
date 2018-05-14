@@ -22,18 +22,10 @@
         "password": ""
     },
 	"sms": {
-		"appid": "1400089807",
-		"appkey": "d72322483793c28088fb2d3378e62e89",
+		"appid": "XXXXXXXXX",
+		"appkey": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
 		"cnAccountTemplateId": "120204",
 		"enAccountTemplateId": "117079",
-
-		"cnContractTemplateId1": "119932",
-		"cnContractTemplateId2": "119934",
-		"cnContractTemplateId3": "119936",
-
-		"enContractTemplateId1": "119926",	
-		"enContractTemplateId2": "119928",	
-		"enContractTemplateId3": "119950",
 		"effectiveinterval": "10"
 	}
 }
