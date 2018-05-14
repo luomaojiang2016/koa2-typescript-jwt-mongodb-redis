@@ -1,0 +1,39 @@
+{
+	"port": "8445",
+	"token":{
+		"jwtsecret": "MIIEogIBAAKCAQEAwk7I4cn6slYkRDs/uQqhZrfV9/uEo1nEXqxgTmUWLekFhYhj",
+		"secretkey": "qRM3+JRrEktE4WgWGgL8z9JNjvqsivKLHjvi//pxGgbw34ZAESfggA/VSK1bNU7q",
+		"effectiveinterval":3600
+	},
+	"candyserver":{
+		"url": "http://192.168.0.166:3000"
+	},
+	"mongodb": {
+		"host": "127.0.0.1",
+		"port": "27017",
+		"user": "",
+		"password": "",
+		"database": "TokenLoanUser"
+	},
+    "redis": {
+        "host": "127.0.0.1",
+        "port": "6379",
+        "user": "",
+        "password": ""
+    },
+	"sms": {
+		"appid": "1400089807",
+		"appkey": "d72322483793c28088fb2d3378e62e89",
+		"cnAccountTemplateId": "120204",
+		"enAccountTemplateId": "117079",
+
+		"cnContractTemplateId1": "119932",
+		"cnContractTemplateId2": "119934",
+		"cnContractTemplateId3": "119936",
+
+		"enContractTemplateId1": "119926",	
+		"enContractTemplateId2": "119928",	
+		"enContractTemplateId3": "119950",
+		"effectiveinterval": "10"
+	}
+}

@@ -1,0 +1,47 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "@types/ioredis": "^3.2.7",
+    "@types/jsonwebtoken": "^7.2.7",
+    "@types/koa-bodyparser": "^4.2.0",
+    "@types/koa-jwt": "^3.3.0",
+    "@types/koa-router": "^7.0.28",
+    "@types/koa-sslify": "^2.1.0",
+    "@types/koa2-cors": "^2.0.1",
+    "@types/mongodb": "^3.0.18",
+    "@types/request": "^2.47.0",
+    "@types/request-promise": "^4.1.41",
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.4",
+    "ioredis": "^3.2.2",
+    "koa": "^2.5.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-jwt": "^3.3.1",
+    "koa-router": "^7.4.0",
+    "koa2-cors": "^2.0.5",
+    "log4js": "^2.5.3",
+    "md5": "^2.2.1",
+    "mongodb": "^3.0.7",
+    "qcloudsms_js": "^0.1.0",
+    "request": "^2.85.0",
+    "request-promise": "^4.2.2"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.16.8",
+    "@types/cors": "^2.8.3",
+    "@types/md5": "^2.1.32",
+    "@types/node": "^9.4.0",
+    "eslint": "^4.16.0",
+    "gulp": "^3.9.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-typescript": "^4.0.1",
+    "gulp-uglify": "^3.0.0",
+    "typescript": "^2.7.1"
+  }
+}
